@@ -27,7 +27,7 @@ tar -zxvf BlastDB.tar.gz
 </pre>
 
 # Download the compressed DeepARG-DB and mobileOG databases (DB.tar.gz) file from one drive, put it inside the "Assembly_Pipeline" directory and uncompress it
-Go to <a href="https://virginiatech-my.sharepoint.com/:u:/g/personal/muhitemon_vt_edu/EQjIpLhOmMVFotPRDiK5Id0BGQFVSVVbyEWOmRWiz-rYUA">One Drive</a> and download <b>DB.tar.gz</b>. Put it inside the <b>Assembly_Pipeline</b> directory
+Go to <a href="https://virginiatech-my.sharepoint.com/:u:/g/personal/muhitemon_vt_edu/EQjIpLhOmMVFotPRDiK5Id0BGQFVSVVbyEWOmRWiz-rYUA">One Drive</a> and download <b>DB.tar.gz</b>. Put it inside the <b>Assembly_Pipeline</b> directory and uncompress it.
 <pre>
 tar -zxvf DB.tar.gz
 </pre>

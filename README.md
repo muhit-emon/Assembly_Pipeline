@@ -19,6 +19,13 @@ To activate the environment, run the following command <br>
 <pre>
 conda activate assembly_pipeline
 </pre>
+# Download the compressed Blast Database file from Zenodo (25 GB) and uncompress it
+Go inside <b>Assembly_Pipeline</b> directory
+<pre>
+wget https://zenodo.org/records/10471551/files/BlastDB.tar.gz
+tar -zxvf BlastDB.tar.gz
+</pre>
+
 # (1) Usage on metagenomic paired-end short read data
 Go inside <b>meta-VF-AMR/scripts</b> directory. <br> <br>
 <b>To run metaVF-AMR on metagenomic paired-end short read data (<span> &#42; </span>.fastq/<span> &#42; </span>.fq/<span> &#42; </span>.fastq.gz/<span> &#42; </span>.fq.gz), use the following command</b> <br>

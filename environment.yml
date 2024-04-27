@@ -1,0 +1,13 @@
+name: assembly_pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - nextflow
+  - blast
+  - megahit
+  - pandas
+  - numpy
+  - pprodigal
+  - biopython

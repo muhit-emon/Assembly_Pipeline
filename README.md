@@ -14,10 +14,10 @@ bash install.sh
 conda env create -f environment.yml
 </pre>
 # conda environment activation
-After installation of meta-VF-AMR, a conda environment named <b>meta-VF-AMR</b> will be created.<br>
+After installation, a conda environment named <b>assembly_pipeline</b> will be created.<br>
 To activate the environment, run the following command <br>
 <pre>
-conda activate meta-VF-AMR
+conda activate assembly_pipeline
 </pre>
 # (1) Usage on metagenomic paired-end short read data
 Go inside <b>meta-VF-AMR/scripts</b> directory. <br> <br>

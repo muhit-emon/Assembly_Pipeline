@@ -8,8 +8,8 @@ Assembly pipeline of CIWARS for computing resistome risk and identifying ARG lik
 
 # Installation
 <pre>
-git clone https://github.com/muhit-emon/meta-VF-AMR.git
-cd meta-VF-AMR
+git clone https://github.com/muhit-emon/Assembly_Pipeline.git
+cd Assembly_Pipeline
 bash install.sh
 conda env create -f environment.yml
 </pre>

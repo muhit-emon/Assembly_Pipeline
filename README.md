@@ -19,7 +19,7 @@ To activate the environment, run the following command <br>
 <pre>
 conda activate assembly_pipeline
 </pre>
-# Download the compressed Blast Database file from Zenodo (25 GB) and uncompress it
+# Download the compressed Blast Database file from Zenodo (25 GB) to run MetaCompare and uncompress it
 Go inside <b>Assembly_Pipeline</b> directory
 <pre>
 wget https://zenodo.org/records/10471551/files/BlastDB.tar.gz

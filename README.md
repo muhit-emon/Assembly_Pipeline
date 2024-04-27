@@ -32,14 +32,14 @@ Go to <a href="https://virginiatech-my.sharepoint.com/:u:/g/personal/muhitemon_v
 tar -zxvf DB.tar.gz
 </pre>
 
-# (1) Usage on metagenomic paired-end short read data
-Go inside <b>meta-VF-AMR/scripts</b> directory. <br> <br>
-<b>To run metaVF-AMR on metagenomic paired-end short read data (<span> &#42; </span>.fastq/<span> &#42; </span>.fq/<span> &#42; </span>.fastq.gz/<span> &#42; </span>.fq.gz), use the following command</b> <br>
+# Usage on metagenomic paired-end short read data
+Go inside <b>Assembly_Pipeline</b> directory. <br> <br>
+<b>To run the assembly pipeline on metagenomic paired-end short read data (<span> &#42; </span>.fastq/<span> &#42; </span>.fq/<span> &#42; </span>.fastq.gz/<span> &#42; </span>.fq.gz), use the following command</b> <br>
 <pre>
-nextflow run pe_pipeline.nf --R1 &ltabsolute/path/to/forward/read/file&gt --R2 &ltabsolute/path/to/reverse/read/file&gt --out_fname &ltprefix of output file name&gt
+nextflow run assembly_pipeline.nf --R1 &ltabsolute/path/to/forward/read/file&gt --R2 &ltabsolute/path/to/reverse/read/file&gt --out_fname &ltprefix of output file name&gt
 rm -r work
 </pre>
-The command line options for this script (<b>pe_pipeline.nf</b>) are: <br><br>
+The command line options for this script (<b>assembly_pipeline.nf</b>) are: <br><br>
 <b>--R1</b>: The absolute path of the fastq file containing forward read sequences <br>
 <b>--R2</b>: The absolute path of the fastq file containing reverse read sequences <br>
 <b>--out_fname</b>: The prefix of the output file name <br><br>

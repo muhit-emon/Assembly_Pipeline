@@ -44,4 +44,4 @@ The command line options for this script (<b>assembly_pipeline.nf</b>) are: <br>
 <b>--R2</b>: The absolute path of the fastq file containing reverse read sequences <br>
 <b>--out_fname</b>: The prefix of the output file name <br><br>
 
-With <b>--out_fname demo</b>, Four fasta files named <b>demo_Reconstructed_ARG.fasta</b>, <b>demo_Reconstructed_MRG.fasta</b>, <b>demo_Reconstructed_BRG.fasta</b>, and <b>demo_Reconstructed_VF.fasta</b> will be generated inside <b>meta-VF-AMR/TMP</b> directory. <br><br>
+With <b>--out_fname S1</b>, three output files named <b>S1_resistome_risk.txt</b>, <b>S1_ARGs.faa</b>, and <b>S1_ARGs_and_mobility.tsv</b> will be generated inside <b>Assembly_Pipeline</b> directory. <br><br>

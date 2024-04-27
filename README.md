@@ -26,6 +26,12 @@ wget https://zenodo.org/records/10471551/files/BlastDB.tar.gz
 tar -zxvf BlastDB.tar.gz
 </pre>
 
+# Download the compressed DeepARG-DB and mobileOG databases (DB.tar.gz) file from one drive, put it inside the "Assembly_Pipeline" directory and uncompress it
+Go to <a href="https://virginiatech-my.sharepoint.com/:u:/g/personal/muhitemon_vt_edu/EQjIpLhOmMVFotPRDiK5Id0BGQFVSVVbyEWOmRWiz-rYUA">One Drive</a> and download DB.tar.gz. Put it inside the <b>Assembly_Pipeline</b> directory
+<pre>
+tar -zxvf DB.tar.gz
+</pre>
+
 # (1) Usage on metagenomic paired-end short read data
 Go inside <b>meta-VF-AMR/scripts</b> directory. <br> <br>
 <b>To run metaVF-AMR on metagenomic paired-end short read data (<span> &#42; </span>.fastq/<span> &#42; </span>.fq/<span> &#42; </span>.fastq.gz/<span> &#42; </span>.fq.gz), use the following command</b> <br>

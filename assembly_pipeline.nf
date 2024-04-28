@@ -63,7 +63,7 @@ process gene_prediction{
   path "${params.out_fname}_predicted_prots.faa", emit: predicted_prots
 
   """
-  pprodigal -i $contigs -d ${params.out_fname}_predicted_genes.fna -a ${params.out_fname}_predicted_prots.faa -p meta -C 4000 -T 16
+  $projectDir/prodigal -i $contigs -d ${params.out_fname}_predicted_genes.fna -a ${params.out_fname}_predicted_prots.faa -p meta
   """
 
 }

@@ -9,5 +9,4 @@ dependencies:
   - megahit
   - pandas
   - numpy
-  - pprodigal
   - biopython

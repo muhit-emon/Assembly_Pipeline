@@ -49,7 +49,7 @@ process assembly{
   path "${output_fname}_renamed_contigs.fa", emit: contigs // these are renamed contigs (e.g >contig_1, >contig_2) with >= 1000 bp
 
   """
-  megahit --presets meta-sensitive -1 $qc_R1 -2 $qc_R2 -t 4 -m 0.5 -f -o ${output_fname}_assembly --out-prefix ${output_fname}
+  megahit --presets meta-sensitive -1 $qc_R1 -2 $qc_R2 -t 4 -m 0.5 -f -o ${output_fname}_assembly --out-prefix ${output_fname} --mem-flag 0
   g++ -o CPP.out $projectDir/rename_contigs.cpp && ./CPP.out ${output_fname}_assembly/${output_fname}.contigs.fa ${output_fname}
   rm -r ${output_fname}_assembly
   """

@@ -1,5 +1,5 @@
 # Assembly_Pipeline
-Assembly pipeline of CIWARS for computing resistome risk and identifying ARG like sequencs and their mobility
+Assembly pipeline of CIWARS for computing resistome risk score and identifying ARG-like sequences and their associations with mobility and pathogen-containing bacterial taxonomy groups
 # Requirements
 <ol>
   <li>Linux operating system</li>

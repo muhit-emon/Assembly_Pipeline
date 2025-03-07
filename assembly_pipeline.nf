@@ -84,7 +84,7 @@ process align_full_length_genes_with_ARG_DB{
   path "${params.out_fname}_aln_filtered_ARG.tsv", emit: aln_ARG_tsv
 
   """
-  $projectDir/diamond blastp -q $predicted_prots -d ${params.ARG_DB} -o ${params.out_fname}_aln_ARG.tsv -k 1 -p 8 --quiet --id 80 --query-cover 70 --subject-cover 70 --evalue 1e-10 -f 6 qtitle stitle pident bitscore evalue length
+  $projectDir/diamond blastp -q $predicted_prots -d ${params.ARG_DB} -o ${params.out_fname}_aln_ARG.tsv -k 1 -p 8 --quiet --id 60 --query-cover 70 --subject-cover 70 --evalue 1e-10 -f 6 qtitle stitle pident bitscore evalue length
   python3 $projectDir/filter_diamond_output.py -aF ${params.out_fname}_aln_ARG.tsv -gT ARG -out ${params.out_fname}
   """
 
@@ -101,7 +101,7 @@ process align_full_length_genes_with_mobileOG_DB{
   path "${params.out_fname}_aln_filtered_MGE.tsv", emit: aln_mobileOG_tsv
 
   """
-  $projectDir/diamond blastp -q $predicted_prots -d ${params.mobileOG_DB} -o ${params.out_fname}_aln_mobileOG.tsv -k 1 -p 8 --quiet --id 80 --query-cover 70 --subject-cover 70 --evalue 1e-10 -f 6 qtitle stitle pident bitscore evalue length
+  $projectDir/diamond blastp -q $predicted_prots -d ${params.mobileOG_DB} -o ${params.out_fname}_aln_mobileOG.tsv -k 1 -p 8 --quiet --id 60 --query-cover 70 --subject-cover 70 --evalue 1e-10 -f 6 qtitle stitle pident bitscore evalue length
   python3 $projectDir/filter_diamond_output.py -aF ${params.out_fname}_aln_mobileOG.tsv -gT MGE -out ${params.out_fname}
   """
 

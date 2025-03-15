@@ -145,11 +145,11 @@ def output_ARGs_and_their_cooccurrence_with_MGEs_and_pathogens(contig_ID_maps_ta
             if MGE_flag is True and pathogen_flag is True:
                 f.write(this_ARG_accession_drug_and_gene_name+"\t"+"YES"+"\t"+contig_ID_maps_taxa[contig]+"\n")
             elif MGE_flag is True and pathogen_flag is False:
-                f.write(this_ARG_accession_drug_and_gene_name+"\t"+"YES"+"\t"+"N/A"+"\n")
+                f.write(this_ARG_accession_drug_and_gene_name+"\t"+"YES"+"\t"+"NA"+"\n")
             elif MGE_flag is False and pathogen_flag is True:
                 f.write(this_ARG_accession_drug_and_gene_name+"\t"+"NO"+"\t"+contig_ID_maps_taxa[contig]+"\n")
             elif MGE_flag is False and pathogen_flag is False:
-                f.write(this_ARG_accession_drug_and_gene_name+"\t"+"NO"+"\t"+"N/A"+"\n")
+                f.write(this_ARG_accession_drug_and_gene_name+"\t"+"NO"+"\t"+"NA"+"\n")
     f.close()
     return
 

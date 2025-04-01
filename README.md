@@ -35,7 +35,7 @@ rm CIWARS_Pathogen_DB.tar.gz
 </pre>
 
 # Download the compressed DeepARG-DB and mobileOG database (DB.tar.gz) from one drive, put it inside the "Assembly_Pipeline" directory and uncompress it
-Go to <a href="https://virginiatech-my.sharepoint.com/:u:/g/personal/muhitemon_vt_edu/EUe5Q5UTTmJLjLQF2Ey8eQMB-eePzPAagVrbrKOCLML_Eg?e=sSIGY2">One Drive</a> and download <b>DB.tar.gz</b>. Put it inside the <b>Assembly_Pipeline</b> directory and uncompress it.
+Go to <a href="https://virginiatech-my.sharepoint.com/:u:/g/personal/muhitemon_vt_edu/EUe5Q5UTTmJLjLQF2Ey8eQMBi_D8ZCmN3zBhaXI6e8TJCw?e=pgcuQp">One Drive</a> and download <b>DB.tar.gz</b>. Put it inside the <b>Assembly_Pipeline</b> directory and uncompress it.
 <pre>
 tar -zxvf DB.tar.gz
 </pre>

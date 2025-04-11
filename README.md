@@ -27,7 +27,7 @@ tar -zxvf BlastDB.tar.gz
 </pre>
 
 # Download bacterial pathogen database (22 GB)
-Go inside <b>Assembly_Pipeline</b> directory. Download the pathogen DB compatible with Kraken2 and uncompress them.
+Go inside <b>Assembly_Pipeline</b> directory. Download the pathogen DB <b>compatible with Kraken2</b> and uncompress them.
 <pre>
 wget https://zenodo.org/records/14537567/files/CIWARS_Pathogen_DB.tar.gz
 tar -zxvf CIWARS_Pathogen_DB.tar.gz
